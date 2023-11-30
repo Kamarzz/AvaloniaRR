@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/WordsSearch/WordsSearch.csproj": {}
+    "C:\\Users\\Stepan\\RiderProjects\\AvaloniaRR\\WordsSearch\\WordsSearch.csproj": {}
   },
   "projects": {
-    "/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/WordsSearch/WordsSearch.csproj": {
+    "C:\\Users\\Stepan\\RiderProjects\\AvaloniaRR\\WordsSearch\\WordsSearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/WordsSearch/WordsSearch.csproj",
+        "projectUniqueName": "C:\\Users\\Stepan\\RiderProjects\\AvaloniaRR\\WordsSearch\\WordsSearch.csproj",
         "projectName": "WordsSearch",
-        "projectPath": "/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/WordsSearch/WordsSearch.csproj",
-        "packagesPath": "/Users/komarzz/.nuget/packages/",
-        "outputPath": "/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/WordsSearch/obj/",
+        "projectPath": "C:\\Users\\Stepan\\RiderProjects\\AvaloniaRR\\WordsSearch\\WordsSearch.csproj",
+        "packagesPath": "C:\\Users\\Stepan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stepan\\RiderProjects\\AvaloniaRR\\WordsSearch\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/komarzz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Stepan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -80,11 +80,15 @@
               "version": "[7.0.14, 7.0.14]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "name": "Microsoft.NETCore.App.Host.win-x64",
               "version": "[7.0.14, 7.0.14]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
               "version": "[7.0.14, 7.0.14]"
             }
           ],
@@ -93,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

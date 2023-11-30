@@ -13,12 +13,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WordsSearch
-build_property.ProjectDir = /Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/WordsSearch/
+build_property.ProjectDir = C:\Users\Stepan\RiderProjects\AvaloniaRR\WordsSearch\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[/Users/komarzz/Учёба/Мемы(C\#)/test_project/CalculatorApp/WordsSearch/App.axaml]
+[C:/Users/Stepan/RiderProjects/AvaloniaRR/WordsSearch/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/komarzz/Учёба/Мемы(C\#)/test_project/CalculatorApp/WordsSearch/Views/MainWindow.axaml]
+[C:/Users/Stepan/RiderProjects/AvaloniaRR/WordsSearch/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
