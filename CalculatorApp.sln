@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintFile", "PrintFile\Prin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNonEqualSymbol", "FirstNonEqualSymbol\FirstNonEqualSymbol.csproj", "{6EA230D4-2419-4934-84DF-29DFA56D5089}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsCount", "WordsCount\WordsCount.csproj", "{B93ABC78-B91E-4A5B-B53B-DDC597A9D557}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{6EA230D4-2419-4934-84DF-29DFA56D5089}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EA230D4-2419-4934-84DF-29DFA56D5089}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EA230D4-2419-4934-84DF-29DFA56D5089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B93ABC78-B91E-4A5B-B53B-DDC597A9D557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93ABC78-B91E-4A5B-B53B-DDC597A9D557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93ABC78-B91E-4A5B-B53B-DDC597A9D557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93ABC78-B91E-4A5B-B53B-DDC597A9D557}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
