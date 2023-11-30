@@ -1,0 +1,108 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:CalculatorApp.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        d:DesignWidth="500"
+        d:DesignHeight="450"
+        x:Class="CalculatorApp.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="CalculatorApp"
+        Background="Chocolate">
+
+    <!-- DataContext for design time -->
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+    
+    
+    <Window.Styles>
+        <Style Selector="Button">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Background" Value="#333"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="MinWidth" Value="100"></Setter>
+            <Setter Property="BorderThickness" Value="10"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+
+        <Style Selector="TextBox">
+            <Setter Property="Background" Value="#FFF"/>
+            <Setter Property="Foreground" Value="#000"/>
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="IsReadOnly" Value="True"/>
+        </Style>
+        
+        <Style Selector="Grid">
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+        </Style>
+        
+        <Style Selector="ColumnDefinition">
+           <Setter Property="Width" Value="Auto"></Setter>
+        </Style>
+    </Window.Styles>
+
+    <!-- Main layout container -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <!-- Display row -->
+            <RowDefinition Height="Auto"/>
+            <!-- Button rows -->
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <!-- Equals button row -->
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <!-- Button columns -->
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Display -->
+        <TextBox Grid.Row="0" Grid.ColumnSpan="4" 
+                 Text="{Binding Expression, Mode=TwoWay}" 
+                 IsReadOnly="True" FontSize="24" Padding="10" 
+                 Margin="5" HorizontalAlignment="Stretch" MinWidth="400"/>
+
+        <!-- Number and operation buttons -->
+        <!-- Row 1 -->
+        <Button Content="1" HorizontalContentAlignment="Center" Grid.Row="1" Grid.Column="0" Command="{Binding InsertNumberCommand}" CommandParameter="1" Margin="5" />
+        <Button Content="2" HorizontalContentAlignment="Center" Grid.Row="1" Grid.Column="1" Command="{Binding InsertNumberCommand}" CommandParameter="2" Margin="5" />
+        <Button Content="3" HorizontalContentAlignment="Center" Grid.Row="1" Grid.Column="2" Command="{Binding InsertNumberCommand}" CommandParameter="3" Margin="5" />
+        <Button Content="+" HorizontalContentAlignment="Center" Grid.Row="1" Grid.Column="3" Command="{Binding OperationCommand}" CommandParameter="Add" Margin="5"/>
+        <!-- Row 2 -->
+        <Button Content="4" HorizontalContentAlignment="Center" Grid.Row="2" Grid.Column="0" Command="{Binding InsertNumberCommand}" CommandParameter="4" Margin="5" />
+        <Button Content="5" HorizontalContentAlignment="Center" Grid.Row="2" Grid.Column="1" Command="{Binding InsertNumberCommand}" CommandParameter="5" Margin="5" />
+        <Button Content="6" HorizontalContentAlignment="Center" Grid.Row="2" Grid.Column="2" Command="{Binding InsertNumberCommand}" CommandParameter="6" Margin="5" />
+        <Button Content="-" HorizontalContentAlignment="Center" Grid.Row="2" Grid.Column="3" Command="{Binding OperationCommand}" CommandParameter="Subtract" Margin="5"/>
+        <!-- Row 3 -->
+        <Button Content="7" HorizontalContentAlignment="Center" Grid.Row="3" Grid.Column="0" Command="{Binding InsertNumberCommand}" CommandParameter="7" Margin="5"/>
+        <Button Content="8" HorizontalContentAlignment="Center" Grid.Row="3" Grid.Column="1" Command="{Binding InsertNumberCommand}" CommandParameter="8" Margin="5"/>
+        <Button Content="9" HorizontalContentAlignment="Center" Grid.Row="3" Grid.Column="2" Command="{Binding InsertNumberCommand}" CommandParameter="9" Margin="5"/>
+        <Button Content="*" HorizontalContentAlignment="Center" Grid.Row="3" Grid.Column="3" Command="{Binding OperationCommand}" CommandParameter="Multiply" Margin="5"/>
+        <!-- Row 4 -->
+        <Button Content="0" HorizontalContentAlignment="Center" Grid.Row="4" Grid.Column="0" Command="{Binding InsertNumberCommand}" CommandParameter="0" />
+        <Button Content="." HorizontalContentAlignment="Center" Grid.Row="4" Grid.Column="1" Command="{Binding InsertNumberCommand}" CommandParameter="." Margin="5"/>
+        <Button Content="/" HorizontalContentAlignment="Center" Grid.Row="4" Grid.Column="2" Command="{Binding OperationCommand}" CommandParameter="Divide" Margin="5"/>
+
+        <!-- Equals button spanning the whole bottom row -->
+        <Button Content="=" HorizontalContentAlignment="Center" Grid.Row="4" Grid.Column="3" Command="{Binding CalculateCommand}"/>
+    </Grid>
+</Window>

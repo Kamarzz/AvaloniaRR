@@ -1,0 +1,17 @@
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/bin/Debug/net7.0/FirstNonEqualSymbol
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/bin/Debug/net7.0/FirstNonEqualSymbol.dll
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/bin/Debug/net7.0/FirstNonEqualSymbol.pdb
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/obj/Debug/net7.0/FirstNonEqualSymbol.csproj.AssemblyReference.cache
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/obj/Debug/net7.0/Avalonia/resources
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/obj/Debug/net7.0/FirstNonEqualSymbol.GeneratedMSBuildEditorConfig.editorconfig
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/obj/Debug/net7.0/FirstNonEqualSymbol.AssemblyInfoInputs.cache
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/obj/Debug/net7.0/FirstNonEqualSymbol.AssemblyInfo.cs
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/obj/Debug/net7.0/FirstNonEqualSymbol.csproj.CoreCompileInputs.cache
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/obj/Debug/net7.0/Avalonia/references
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/obj/Debug/net7.0/Avalonia/original.dll
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/obj/Debug/net7.0/Avalonia/original.pdb
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/obj/Debug/net7.0/Avalonia/original.ref.dll
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/obj/Debug/net7.0/refint/FirstNonEqualSymbol.dll
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/obj/Debug/net7.0/FirstNonEqualSymbol.dll
+/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/FirstNonEqualSymbol/obj/Debug/net7.0/FirstNonEqualSymbol.pdb

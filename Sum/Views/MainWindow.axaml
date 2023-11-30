@@ -1,0 +1,46 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Sum.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Sum.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Sum">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+    
+    <Window.Styles>
+        <Style Selector="StackPanel.Main">
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="Orientation" Value="Vertical"></Setter>
+        </Style>
+        
+        <Style Selector="StackPanel.Numbers">
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="Orientation" Value="Horizontal"></Setter>
+            <Setter Property="Margin" Value="10"></Setter>
+        </Style>
+    </Window.Styles>
+
+    <StackPanel Classes="Main">
+        
+        <StackPanel Classes="Numbers">
+        
+            <TextBox Text="{Binding Value1}"></TextBox>
+            <TextBox Text="{Binding Value2}"></TextBox>
+        
+        </StackPanel>
+        
+        <TextBox HorizontalContentAlignment="Center" IsReadOnly="True" Text="{Binding Result}"></TextBox>
+        
+    </StackPanel>
+
+</Window>

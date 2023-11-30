@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/CalculatorApp/CalculatorApp.csproj": {}
+  },
+  "projects": {
+    "/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/CalculatorApp/CalculatorApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/CalculatorApp/CalculatorApp.csproj",
+        "projectName": "CalculatorApp",
+        "projectPath": "/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/CalculatorApp/CalculatorApp.csproj",
+        "packagesPath": "/Users/komarzz/.nuget/packages/",
+        "outputPath": "/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/CalculatorApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/komarzz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.0.5, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.0.5, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.0.5, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.0.5, )"
+            },
+            "Avalonia.ReactiveUI": {
+              "target": "Package",
+              "version": "[11.0.5, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

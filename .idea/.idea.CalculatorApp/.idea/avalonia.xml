@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="CalculatorApp/App.axaml" value="CalculatorApp/CalculatorApp.csproj" />
+        <entry key="CalculatorApp/Views/MainWindow.axaml" value="CalculatorApp/CalculatorApp.csproj" />
+        <entry key="FirstNonEqualSymbol/Views/MainWindow.axaml" value="FirstNonEqualSymbol/FirstNonEqualSymbol.csproj" />
+        <entry key="PrintFile/Views/MainWindow.axaml" value="PrintFile/PrintFile.csproj" />
+        <entry key="Sum/Views/MainWindow.axaml" value="Sum/Sum.csproj" />
+        <entry key="TaskManager/App.axaml" value="TaskManager/TaskManager.csproj" />
+        <entry key="TaskManager/Views/MainWindow.axaml" value="TaskManager/TaskManager.csproj" />
+        <entry key="Watch/Views/MainWindow.axaml" value="Watch/Watch.csproj" />
+        <entry key="WordsSearch/Views/MainWindow.axaml" value="WordsSearch/WordsSearch.csproj" />
+        <entry key="isAdult/App.axaml" value="isAdult/isAdult.csproj" />
+        <entry key="isAdult/Views/MainWindow.axaml" value="isAdult/isAdult.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
