@@ -4696,19 +4696,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/komarzz/.nuget/packages/": {}
+    "C:\\Users\\Stepan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/isAdult/isAdult.csproj",
+      "projectUniqueName": "C:\\Users\\Stepan\\RiderProjects\\AvaloniaRR\\isAdult\\isAdult.csproj",
       "projectName": "isAdult",
-      "projectPath": "/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/isAdult/isAdult.csproj",
-      "packagesPath": "/Users/komarzz/.nuget/packages/",
-      "outputPath": "/Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/isAdult/obj/",
+      "projectPath": "C:\\Users\\Stepan\\RiderProjects\\AvaloniaRR\\isAdult\\isAdult.csproj",
+      "packagesPath": "C:\\Users\\Stepan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Stepan\\RiderProjects\\AvaloniaRR\\isAdult\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/komarzz/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Stepan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -4774,11 +4774,15 @@
             "version": "[7.0.14, 7.0.14]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "name": "Microsoft.NETCore.App.Host.win-x64",
             "version": "[7.0.14, 7.0.14]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
             "version": "[7.0.14, 7.0.14]"
           }
         ],
@@ -4787,7 +4791,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

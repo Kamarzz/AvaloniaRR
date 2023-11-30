@@ -15,9 +15,16 @@ public class MainWindowViewModel : ViewModelBase
             this.RaiseAndSetIfChanged(ref _date, value);
         }
     }
-    public string IsAdult => isAdult(_date);
 
-    private static string isAdult(DateTime date)
+    private string _isAdult;
+
+    public string IsAdult
+    {
+        get => _isAdult;
+        set => this.RaiseAndSetIfChanged(ref _isAdult, value);
+    }
+
+    public string isAdultFunc(DateTime date)
     {
         return date.AddYears(18) < DateTime.Now ? "Adult" : "Not adult";
     }

@@ -13,12 +13,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = isAdult
-build_property.ProjectDir = /Users/komarzz/Учёба/Мемы(C#)/test_project/CalculatorApp/isAdult/
+build_property.ProjectDir = C:\Users\Stepan\RiderProjects\AvaloniaRR\isAdult\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[/Users/komarzz/Учёба/Мемы(C\#)/test_project/CalculatorApp/isAdult/App.axaml]
+[C:/Users/Stepan/RiderProjects/AvaloniaRR/isAdult/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/komarzz/Учёба/Мемы(C\#)/test_project/CalculatorApp/isAdult/Views/MainWindow.axaml]
+[C:/Users/Stepan/RiderProjects/AvaloniaRR/isAdult/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

@@ -28,9 +28,9 @@
 
     <StackPanel>
         
-        <DatePicker SelectedDate="{Binding Date, Mode=TwoWay}"></DatePicker>
+        <DatePicker  SelectedDateChanged="OnDataChange"></DatePicker>
         
-        <TextBox IsReadOnly="True" Text="{Binding IsAdult}"></TextBox>
+        <TextBlock Text="{Binding IsAdult}"></TextBlock>
         
     </StackPanel>
 
